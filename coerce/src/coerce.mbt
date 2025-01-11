@@ -1,0 +1,1 @@
+pub fn unsafe_coerce[A, B](_ : A) -> B = "%identity"

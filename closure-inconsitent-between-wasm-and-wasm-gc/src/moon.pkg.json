@@ -1,0 +1,10 @@
+{
+  "link": {
+    "wasm": {
+      "exports": ["entry"]
+    },
+    "wasm-gc": {
+      "exports": ["entry"]
+    }
+  }
+}

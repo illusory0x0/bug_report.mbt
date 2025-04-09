@@ -1,4 +1,4 @@
 test {
-  let x : @lib.Int = 0 
+  let x : @lib.UInt = 0U 
   let y : @lib.MyInt = 0 
 }

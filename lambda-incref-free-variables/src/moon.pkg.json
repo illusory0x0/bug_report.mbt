@@ -1,0 +1,14 @@
+{
+  "is-main": true,
+  "link": {
+    "native": {
+      "cc-flags": "-fsanitize=address"
+    }
+  },
+  "targets": {
+    "top.mbt" : [ "native"]
+  },
+  
+  "native-stub": ["stub.c"],
+  "warn-list": "-A"
+}

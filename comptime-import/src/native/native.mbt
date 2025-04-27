@@ -1,0 +1,1 @@
+pub extern "c" fn hello() = "hello"

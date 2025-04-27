@@ -1,0 +1,6 @@
+{
+  "targets": {
+    "js.mbt": [ "js"]
+  },
+  "supported-targets": ["js"]
+}

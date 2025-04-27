@@ -1,0 +1,8 @@
+{
+  "import": ["username/hello/js", "username/hello/native"],
+  "supported-targets": ["js", "native"],
+  "targets": {
+    "js.mbt": ["js"],
+    "native.mbt": ["native"]
+  }
+}

@@ -1,0 +1,1 @@
+comptime-import Example without bug

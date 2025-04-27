@@ -1,0 +1,11 @@
+{
+  "name": "username/hello",
+  "version": "0.1.0",
+  "readme": "README.md",
+  "repository": "",
+  "license": "Apache-2.0",
+  "keywords": [],
+  "description": "",
+  "source": "src",
+  "warn-list": "-1-2-3-5-6-7-8-10-29"
+}

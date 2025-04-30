@@ -1,0 +1,8 @@
+{
+  "is-main": true,
+  "link": {
+    "native": {
+      "cc-flags": "-fsanitize=address -fno-omit-frame-pointer -g"
+    }
+  }
+}

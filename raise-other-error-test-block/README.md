@@ -30,7 +30,8 @@ error: failed when testing
 ```
 
 
-## moon run is feferergrgerg
+## moon run is available
 
-
-ewfewe
+```
+moon run src/main
+```

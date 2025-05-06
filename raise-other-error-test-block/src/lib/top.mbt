@@ -1,4 +1,3 @@
-
 enum ErrorCode {
   Success
   Failure
@@ -26,6 +25,3 @@ test "newtype" {
     _ => () 
   }
 }
-
-
-// implwfwfew

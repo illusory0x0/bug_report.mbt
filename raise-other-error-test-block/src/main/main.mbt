@@ -25,4 +25,5 @@ fn main {
   } catch {
     _ => ()
   }
+  println("done")
 }

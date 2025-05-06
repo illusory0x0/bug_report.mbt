@@ -23,7 +23,7 @@ bash run.sh
 ## Normal Case 
 
 moonc insert `moonbit_incref` outside the function `f`, but in 
-`void register_callback(void (*call)(moonbit_closure), moonbit_closure closure)` this FFI function implentation 
+`void register_callback(void (*call)(moonbit_closure), moonbit_closure closure)` this FFI function implementation 
 **doesn't** do that.
 
 

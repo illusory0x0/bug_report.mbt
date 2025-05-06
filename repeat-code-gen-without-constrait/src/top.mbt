@@ -1,11 +1,9 @@
+fn id[A](x : A) -> A { x }
+
 fn main {
-  let xs = Array::makei(10,fn { x => Ref::new(x)})
+  let x : Ref[Int] = Ref::new(0)
+  let xs : Array[Int] = [1,2]
+  id(x) |> ignore
 
-  xs.map(fn { x => x.val }) |> ignore
-  // Array[Ref[Int]]::map is the same as Array[Array[Int]] in reprentation.
-
-  let ys = Array::makei(10, fn { x => [x]})
-
-  ys.map(fn { x => x[0]}) |> ignore
-
+  id(xs) |> ignore
 }

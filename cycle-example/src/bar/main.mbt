@@ -18,8 +18,8 @@ fn foo(a : A) -> B {
 ///|
 fn main {
   let a = A::{ val: None }
-  let b = B::{ val: Some(a) } // manully inline
-  a.val = Some(b)             // manully inline
+  let b = B::{ val: Some(a) } // manually inline
+  a.val = Some(b)             // manually inline
   println(a.val.is_empty())   // memory leak
   a |> ignore
   b |> ignore
